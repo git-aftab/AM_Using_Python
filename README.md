@@ -39,7 +39,7 @@ Modulation can be defined as the process by which the characteristics of carrier
 
 9. Compare Signals Compare the original modulating signal with the demodulated signal. PROCEDURE • Refer Algorithms and write code for the experiment. • Open colab in System • Type your code in New Editor • Save the file • Execute the code • If any Error, correct it in code and execute again • Verify the generated waveform using Tabulation and Model Waveform
 
-<h3>Program</h3>
+#program
 ```
 import numpy as np
 import matplotlib.pyplot as plt
