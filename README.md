@@ -40,7 +40,7 @@ Modulation can be defined as the process by which the characteristics of carrier
 9. Compare Signals Compare the original modulating signal with the demodulated signal. PROCEDURE • Refer Algorithms and write code for the experiment. • Open colab in System • Type your code in New Editor • Save the file • Execute the code • If any Error, correct it in code and execute again • Verify the generated waveform using Tabulation and Model Waveform
 
 <h3>Program</h3>
----
+```
 import numpy as np
 import matplotlib.pyplot as plt
 Am = 7.0
@@ -60,11 +60,10 @@ plt.subplot(3, 1, 3)
 plt.plot(t, s)
 plt.tight_layout()
 plt.show()
----
+```
 
 <h3>Output Waveform</h3>
-
-
+<img width="1536" height="898" alt="Figure_1" src="https://github.com/user-attachments/assets/6d34f252-e34b-4db8-b890-bf3d3199caf1" />
 
 
 <h3>Calculation</h3>
@@ -73,7 +72,7 @@ ma (Theory) = am/ac =0.5
 ma(Practical) = (Emax-Emin)/(Emax+Emin) =0.5
 
 <h3>Model Graph</h3>
-
+<img width="919" height="1290" alt="image" src="https://github.com/user-attachments/assets/55326c5b-7dd5-4873-aaf6-d219bb7c4420" />
 
 
 <h3>Result</h3>
