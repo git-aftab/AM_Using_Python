@@ -43,11 +43,11 @@ Modulation can be defined as the process by which the characteristics of carrier
 ```
 import numpy as np
 import matplotlib.pyplot as plt
-Am = 3.2
-Ac = 6.4
+Am = 6.2
+Ac = 12.4
 fm = 920
-fc = 9200
-fs = 92000
+fc = 580
+fs = 58000
 t = np.arange(0, 2/fm, 1/fs)
 m = Am * np.cos(2 * np.pi * fm * t)
 plt.subplot(3, 1, 1)
@@ -65,6 +65,10 @@ plt.show()
 <h3>Output Waveform</h3>
 <img width="1536" height="898" alt="Figure_1" src="https://github.com/user-attachments/assets/6d34f252-e34b-4db8-b890-bf3d3199caf1" />
 
+
+<h3>Tablulation</h3>
+
+![WhatsApp Image 2025-12-05 at 11 38 56_fb2f5895](https://github.com/user-attachments/assets/65c0199a-fc10-43fc-a7be-3e5b9a0983ad)
 
 <h3>Calculation</h3>
 
